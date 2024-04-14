@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.AdminPage {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative; 
+}
+
+.floatBtn {
+    display: flex;
+    width: 20rem;
+    height: 20vh;
+    flex-direction: row;
+}
+
+.CR {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    margin: 2rem;
+    border-radius: 0.75rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    font-family: 'Trebuchet MS';
+    background-color: rgba(65, 250, 90, 0.753);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {    
+    .CR {
+        height: 2.5rem;
+        width: 14rem;
+    }
+    .floatBtn{
+        margin-left: 3rem;
+    }
+}
+.sideContainer{
+    z-index: 450;
+    width: 20rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mapMarking{
+    width: 12rem;
+    height: 9rem;
+    background-color: rgba(200, 200, 200, 0.477);
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    padding-top: 0.75rem;
+    margin-left: 5rem;
+}
+.listitem{
+    display: flex;
+    flex-direction: row;
+    width: 12rem ;
+    height: 1.3rem;
+    font-size: 1rem;
+    margin: 0.25rem;
+}
+.circle1{
+    height: 1rem;
+    width: 1rem;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.circle2{
+    height: 1rem;
+    width: 1rem;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.circle3{
+    height: 1rem;
+    width: 1rem;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.circle4{
+    height: 1rem;
+    width: 1rem;
+    background-color: violet;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.circle5{
+    height: 1rem;
+    width: 1rem;
+    background-color: brown;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

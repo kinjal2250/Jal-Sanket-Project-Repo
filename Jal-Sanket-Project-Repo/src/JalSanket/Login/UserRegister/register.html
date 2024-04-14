@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jal Sanket</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-blue-400 bg-opacity-150 h-screen flex items-center justify-center">
+    <div class="glassmorphism-section">
+        <div class="glassmorphism-circle circle-1"></div>
+        <div class="glassmorphism-circle circle-2"></div>
+        <div class="glassmorphism-circle circle-3"></div>
+        <div class="glassmorphism-card">
+    <div>
+        <h2 class="text-4xl  mb-12 text-center" id="register">Register</h2>
+
+        <form id="registerForm" class="mb-4">
+            <div class="mb-4">
+                <label for="fullname" class="block text-sm font-medium text-black" id="name">Name</label>
+                <input type="text" id="fullname" name="fullname" class="mt-1 p-2 w-full border rounded-md" style="color: black;">
+            </div>
+
+            <div class="mb-4">
+                <label for="userloginId" class="block text-sm font-medium text-black" id="username">Username</label>
+                <input type="text" id="userloginId" name="userloginId" class="mt-1 p-2 w-full border rounded-md" style="color: black;">
+            </div>
+
+            <div class="mb-4">
+                <label for="password" class="block text-sm font-medium text-black" id="password">Password</label>
+                <input type="password" id="password" name="password" class="mt-1 p-2 w-full border rounded-md" style="color: black;">
+            </div>
+
+            <button type="submit" class="w-full bg-indigo-500 text-black py-2 px-4 rounded focus:outline-none"id="tregister">Register</button>
+        </form>
+
+        <div class="text-sm text-center">
+            Already have an account? <a href="../../index.html" class="text-blue-500 hover:underline">Login here</a>.
+        </div>
+    </div>
+    </div>
+    </div>
+    <script type="module" src="register.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</body>
+</html>
